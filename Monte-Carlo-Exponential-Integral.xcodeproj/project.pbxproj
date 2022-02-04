@@ -17,6 +17,10 @@
 		A3FA41DA27ADD7FC00ADDF0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA41B027ADD7F800ADDF0F /* ContentView.swift */; };
 		A3FA41DB27ADD7FC00ADDF0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3FA41B127ADD7FB00ADDF0F /* Assets.xcassets */; };
 		A3FA41DC27ADD7FC00ADDF0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3FA41B127ADD7FB00ADDF0F /* Assets.xcassets */; };
+		A3FA41EC27ADD81800ADDF0F /* MonteCarloBoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA41EB27ADD81800ADDF0F /* MonteCarloBoundingBox.swift */; };
+		A3FA41ED27ADD81800ADDF0F /* MonteCarloBoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA41EB27ADD81800ADDF0F /* MonteCarloBoundingBox.swift */; };
+		A3FA41EF27ADE12D00ADDF0F /* IntegrateExponentialFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA41EE27ADE12D00ADDF0F /* IntegrateExponentialFunction.swift */; };
+		A3FA41F027ADE12D00ADDF0F /* IntegrateExponentialFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA41EE27ADE12D00ADDF0F /* IntegrateExponentialFunction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		A3FA41CF27ADD7FC00ADDF0F /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3FA41D327ADD7FC00ADDF0F /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		A3FA41D527ADD7FC00ADDF0F /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		A3FA41EB27ADD81800ADDF0F /* MonteCarloBoundingBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonteCarloBoundingBox.swift; sourceTree = "<group>"; };
+		A3FA41EE27ADE12D00ADDF0F /* IntegrateExponentialFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrateExponentialFunction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				A3FA41AF27ADD7F800ADDF0F /* Monte_Carlo_Exponential_IntegralApp.swift */,
+				A3FA41EE27ADE12D00ADDF0F /* IntegrateExponentialFunction.swift */,
 				A3FA41B027ADD7F800ADDF0F /* ContentView.swift */,
+				A3FA41EB27ADD81800ADDF0F /* MonteCarloBoundingBox.swift */,
 				A3FA41B127ADD7FB00ADDF0F /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -299,8 +307,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3FA41EC27ADD81800ADDF0F /* MonteCarloBoundingBox.swift in Sources */,
 				A3FA41D927ADD7FC00ADDF0F /* ContentView.swift in Sources */,
 				A3FA41D727ADD7FC00ADDF0F /* Monte_Carlo_Exponential_IntegralApp.swift in Sources */,
+				A3FA41EF27ADE12D00ADDF0F /* IntegrateExponentialFunction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +318,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3FA41ED27ADD81800ADDF0F /* MonteCarloBoundingBox.swift in Sources */,
 				A3FA41DA27ADD7FC00ADDF0F /* ContentView.swift in Sources */,
 				A3FA41D827ADD7FC00ADDF0F /* Monte_Carlo_Exponential_IntegralApp.swift in Sources */,
+				A3FA41F027ADE12D00ADDF0F /* IntegrateExponentialFunction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
