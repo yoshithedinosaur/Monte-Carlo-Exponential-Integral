@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3FA41C827ADD7FC00ADDF0F /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA41C727ADD7FC00ADDF0F /* Tests_iOS.swift */; };
+		A3FA41CA27ADD7FC00ADDF0F /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA41C927ADD7FC00ADDF0F /* Tests_iOSLaunchTests.swift */; };
+		A3FA41D427ADD7FC00ADDF0F /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA41D327ADD7FC00ADDF0F /* Tests_macOS.swift */; };
+		A3FA41D627ADD7FC00ADDF0F /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA41D527ADD7FC00ADDF0F /* Tests_macOSLaunchTests.swift */; };
+		A3FA41D727ADD7FC00ADDF0F /* Monte_Carlo_Exponential_IntegralApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA41AF27ADD7F800ADDF0F /* Monte_Carlo_Exponential_IntegralApp.swift */; };
+		A3FA41D827ADD7FC00ADDF0F /* Monte_Carlo_Exponential_IntegralApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA41AF27ADD7F800ADDF0F /* Monte_Carlo_Exponential_IntegralApp.swift */; };
+		A3FA41D927ADD7FC00ADDF0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA41B027ADD7F800ADDF0F /* ContentView.swift */; };
+		A3FA41DA27ADD7FC00ADDF0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FA41B027ADD7F800ADDF0F /* ContentView.swift */; };
+		A3FA41DB27ADD7FC00ADDF0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3FA41B127ADD7FB00ADDF0F /* Assets.xcassets */; };
+		A3FA41DC27ADD7FC00ADDF0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3FA41B127ADD7FB00ADDF0F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3FA41C427ADD7FC00ADDF0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3FA41AA27ADD7F800ADDF0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3FA41B527ADD7FB00ADDF0F;
+			remoteInfo = "Monte-Carlo-Exponential-Integral (iOS)";
+		};
+		A3FA41D027ADD7FC00ADDF0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3FA41AA27ADD7F800ADDF0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3FA41BB27ADD7FB00ADDF0F;
+			remoteInfo = "Monte-Carlo-Exponential-Integral (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3FA41AF27ADD7F800ADDF0F /* Monte_Carlo_Exponential_IntegralApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monte_Carlo_Exponential_IntegralApp.swift; sourceTree = "<group>"; };
+		A3FA41B027ADD7F800ADDF0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A3FA41B127ADD7FB00ADDF0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3FA41B627ADD7FB00ADDF0F /* Monte-Carlo-Exponential-Integral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Monte-Carlo-Exponential-Integral.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3FA41BC27ADD7FB00ADDF0F /* Monte-Carlo-Exponential-Integral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Monte-Carlo-Exponential-Integral.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3FA41BE27ADD7FB00ADDF0F /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		A3FA41C327ADD7FC00ADDF0F /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3FA41C727ADD7FC00ADDF0F /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		A3FA41C927ADD7FC00ADDF0F /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		A3FA41CF27ADD7FC00ADDF0F /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3FA41D327ADD7FC00ADDF0F /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		A3FA41D527ADD7FC00ADDF0F /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3FA41B327ADD7FB00ADDF0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FA41B927ADD7FB00ADDF0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FA41C027ADD7FB00ADDF0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FA41CC27ADD7FC00ADDF0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3FA41A927ADD7F800ADDF0F = {
+			isa = PBXGroup;
+			children = (
+				A3FA41AE27ADD7F800ADDF0F /* Shared */,
+				A3FA41BD27ADD7FB00ADDF0F /* macOS */,
+				A3FA41C627ADD7FC00ADDF0F /* Tests iOS */,
+				A3FA41D227ADD7FC00ADDF0F /* Tests macOS */,
+				A3FA41B727ADD7FB00ADDF0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3FA41AE27ADD7F800ADDF0F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A3FA41AF27ADD7F800ADDF0F /* Monte_Carlo_Exponential_IntegralApp.swift */,
+				A3FA41B027ADD7F800ADDF0F /* ContentView.swift */,
+				A3FA41B127ADD7FB00ADDF0F /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A3FA41B727ADD7FB00ADDF0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3FA41B627ADD7FB00ADDF0F /* Monte-Carlo-Exponential-Integral.app */,
+				A3FA41BC27ADD7FB00ADDF0F /* Monte-Carlo-Exponential-Integral.app */,
+				A3FA41C327ADD7FC00ADDF0F /* Tests iOS.xctest */,
+				A3FA41CF27ADD7FC00ADDF0F /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3FA41BD27ADD7FB00ADDF0F /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				A3FA41BE27ADD7FB00ADDF0F /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		A3FA41C627ADD7FC00ADDF0F /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A3FA41C727ADD7FC00ADDF0F /* Tests_iOS.swift */,
+				A3FA41C927ADD7FC00ADDF0F /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		A3FA41D227ADD7FC00ADDF0F /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				A3FA41D327ADD7FC00ADDF0F /* Tests_macOS.swift */,
+				A3FA41D527ADD7FC00ADDF0F /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3FA41B527ADD7FB00ADDF0F /* Monte-Carlo-Exponential-Integral (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3FA41DF27ADD7FC00ADDF0F /* Build configuration list for PBXNativeTarget "Monte-Carlo-Exponential-Integral (iOS)" */;
+			buildPhases = (
+				A3FA41B227ADD7FB00ADDF0F /* Sources */,
+				A3FA41B327ADD7FB00ADDF0F /* Frameworks */,
+				A3FA41B427ADD7FB00ADDF0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Monte-Carlo-Exponential-Integral (iOS)";
+			productName = "Monte-Carlo-Exponential-Integral (iOS)";
+			productReference = A3FA41B627ADD7FB00ADDF0F /* Monte-Carlo-Exponential-Integral.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3FA41BB27ADD7FB00ADDF0F /* Monte-Carlo-Exponential-Integral (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3FA41E227ADD7FC00ADDF0F /* Build configuration list for PBXNativeTarget "Monte-Carlo-Exponential-Integral (macOS)" */;
+			buildPhases = (
+				A3FA41B827ADD7FB00ADDF0F /* Sources */,
+				A3FA41B927ADD7FB00ADDF0F /* Frameworks */,
+				A3FA41BA27ADD7FB00ADDF0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Monte-Carlo-Exponential-Integral (macOS)";
+			productName = "Monte-Carlo-Exponential-Integral (macOS)";
+			productReference = A3FA41BC27ADD7FB00ADDF0F /* Monte-Carlo-Exponential-Integral.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3FA41C227ADD7FB00ADDF0F /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3FA41E527ADD7FC00ADDF0F /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				A3FA41BF27ADD7FB00ADDF0F /* Sources */,
+				A3FA41C027ADD7FB00ADDF0F /* Frameworks */,
+				A3FA41C127ADD7FB00ADDF0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3FA41C527ADD7FC00ADDF0F /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = A3FA41C327ADD7FC00ADDF0F /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A3FA41CE27ADD7FC00ADDF0F /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3FA41E827ADD7FC00ADDF0F /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				A3FA41CB27ADD7FC00ADDF0F /* Sources */,
+				A3FA41CC27ADD7FC00ADDF0F /* Frameworks */,
+				A3FA41CD27ADD7FC00ADDF0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3FA41D127ADD7FC00ADDF0F /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = A3FA41CF27ADD7FC00ADDF0F /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3FA41AA27ADD7F800ADDF0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					A3FA41B527ADD7FB00ADDF0F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					A3FA41BB27ADD7FB00ADDF0F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					A3FA41C227ADD7FB00ADDF0F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = A3FA41B527ADD7FB00ADDF0F;
+					};
+					A3FA41CE27ADD7FC00ADDF0F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = A3FA41BB27ADD7FB00ADDF0F;
+					};
+				};
+			};
+			buildConfigurationList = A3FA41AD27ADD7F800ADDF0F /* Build configuration list for PBXProject "Monte-Carlo-Exponential-Integral" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3FA41A927ADD7F800ADDF0F;
+			productRefGroup = A3FA41B727ADD7FB00ADDF0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3FA41B527ADD7FB00ADDF0F /* Monte-Carlo-Exponential-Integral (iOS) */,
+				A3FA41BB27ADD7FB00ADDF0F /* Monte-Carlo-Exponential-Integral (macOS) */,
+				A3FA41C227ADD7FB00ADDF0F /* Tests iOS */,
+				A3FA41CE27ADD7FC00ADDF0F /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3FA41B427ADD7FB00ADDF0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FA41DB27ADD7FC00ADDF0F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FA41BA27ADD7FB00ADDF0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FA41DC27ADD7FC00ADDF0F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FA41C127ADD7FB00ADDF0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FA41CD27ADD7FC00ADDF0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3FA41B227ADD7FB00ADDF0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FA41D927ADD7FC00ADDF0F /* ContentView.swift in Sources */,
+				A3FA41D727ADD7FC00ADDF0F /* Monte_Carlo_Exponential_IntegralApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FA41B827ADD7FB00ADDF0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FA41DA27ADD7FC00ADDF0F /* ContentView.swift in Sources */,
+				A3FA41D827ADD7FC00ADDF0F /* Monte_Carlo_Exponential_IntegralApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FA41BF27ADD7FB00ADDF0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FA41CA27ADD7FC00ADDF0F /* Tests_iOSLaunchTests.swift in Sources */,
+				A3FA41C827ADD7FC00ADDF0F /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FA41CB27ADD7FC00ADDF0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FA41D627ADD7FC00ADDF0F /* Tests_macOSLaunchTests.swift in Sources */,
+				A3FA41D427ADD7FC00ADDF0F /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3FA41C527ADD7FC00ADDF0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3FA41B527ADD7FB00ADDF0F /* Monte-Carlo-Exponential-Integral (iOS) */;
+			targetProxy = A3FA41C427ADD7FC00ADDF0F /* PBXContainerItemProxy */;
+		};
+		A3FA41D127ADD7FC00ADDF0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3FA41BB27ADD7FB00ADDF0F /* Monte-Carlo-Exponential-Integral (macOS) */;
+			targetProxy = A3FA41D027ADD7FC00ADDF0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A3FA41DD27ADD7FC00ADDF0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3FA41DE27ADD7FC00ADDF0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A3FA41E027ADD7FC00ADDF0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZ8BHG3P39;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IIT-PHYS440.Monte-Carlo-Exponential-Integral";
+				PRODUCT_NAME = "Monte-Carlo-Exponential-Integral";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3FA41E127ADD7FC00ADDF0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZ8BHG3P39;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IIT-PHYS440.Monte-Carlo-Exponential-Integral";
+				PRODUCT_NAME = "Monte-Carlo-Exponential-Integral";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3FA41E327ADD7FC00ADDF0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZ8BHG3P39;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IIT-PHYS440.Monte-Carlo-Exponential-Integral";
+				PRODUCT_NAME = "Monte-Carlo-Exponential-Integral";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A3FA41E427ADD7FC00ADDF0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZ8BHG3P39;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IIT-PHYS440.Monte-Carlo-Exponential-Integral";
+				PRODUCT_NAME = "Monte-Carlo-Exponential-Integral";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A3FA41E627ADD7FC00ADDF0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZ8BHG3P39;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IIT-PHYS440.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Monte-Carlo-Exponential-Integral (iOS)";
+			};
+			name = Debug;
+		};
+		A3FA41E727ADD7FC00ADDF0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZ8BHG3P39;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IIT-PHYS440.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Monte-Carlo-Exponential-Integral (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3FA41E927ADD7FC00ADDF0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZ8BHG3P39;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IIT-PHYS440.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Monte-Carlo-Exponential-Integral (macOS)";
+			};
+			name = Debug;
+		};
+		A3FA41EA27ADD7FC00ADDF0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZ8BHG3P39;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IIT-PHYS440.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Monte-Carlo-Exponential-Integral (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3FA41AD27ADD7F800ADDF0F /* Build configuration list for PBXProject "Monte-Carlo-Exponential-Integral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3FA41DD27ADD7FC00ADDF0F /* Debug */,
+				A3FA41DE27ADD7FC00ADDF0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3FA41DF27ADD7FC00ADDF0F /* Build configuration list for PBXNativeTarget "Monte-Carlo-Exponential-Integral (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3FA41E027ADD7FC00ADDF0F /* Debug */,
+				A3FA41E127ADD7FC00ADDF0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3FA41E227ADD7FC00ADDF0F /* Build configuration list for PBXNativeTarget "Monte-Carlo-Exponential-Integral (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3FA41E327ADD7FC00ADDF0F /* Debug */,
+				A3FA41E427ADD7FC00ADDF0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3FA41E527ADD7FC00ADDF0F /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3FA41E627ADD7FC00ADDF0F /* Debug */,
+				A3FA41E727ADD7FC00ADDF0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3FA41E827ADD7FC00ADDF0F /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3FA41E927ADD7FC00ADDF0F /* Debug */,
+				A3FA41EA27ADD7FC00ADDF0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3FA41AA27ADD7F800ADDF0F /* Project object */;
+}
