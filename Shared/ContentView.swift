@@ -17,6 +17,7 @@ struct ContentView: View {
     @State var guessString = "23458"
     @State var totalGuessString = "0"
     @State var integralString = "0.0"
+    @State var currentErrorString = "0.0"
     
     
     // Setup the GUI to monitor the data from the Monte Carlo Integral Calculator
@@ -50,6 +51,14 @@ struct ContentView: View {
                         .font(.callout)
                         .bold()
                     TextField("# output", text: $integralString)
+                        .padding()
+                }
+                
+                VStack(alignment: .center) {
+                    Text("Log of Error")
+                        .font(.callout)
+                        .bold()
+                    TextField("# error", text: $currentErrorString)
                         .padding()
                 }
                 
@@ -91,6 +100,8 @@ struct ContentView: View {
         
         integralString =  monteCarlo.integralString
         
+        currentErrorString = monteCarlo.currentErrorString
+        
         monteCarlo.setButtonEnable(state: true)
         
     }
@@ -105,6 +116,7 @@ struct ContentView: View {
         monteCarlo.aboveData = []
         monteCarlo.belowData = []
         monteCarlo.firstTimeThroughLoop = true
+        currentErrorString = ""
         
         
     }

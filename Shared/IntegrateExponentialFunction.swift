@@ -14,6 +14,7 @@ class IntegralCalculator: NSObject, ObservableObject {
     @Published var totalGuessesString = ""
     @Published var guessesString = ""
     @Published var integralString = ""
+    @Published var currentErrorString = ""
     @Published var enableButton = true
     
     var intervalStart = 0.0
@@ -22,6 +23,7 @@ class IntegralCalculator: NSObject, ObservableObject {
     var guesses = 1
     var totalGuesses = 0
     var totalIntegral = 0.0
+    var error = 0.0
     var firstTimeThroughLoop = true
     
     @MainActor init(withData data: Bool){
@@ -45,7 +47,7 @@ class IntegralCalculator: NSObject, ObservableObject {
         
         let lengthOfSide1 = (intervalEnd-intervalStart)
         let lengthOfSide2 = exp(-min(intervalStart,intervalEnd))
-        
+        let actualVal:Double = 1 - exp(-1) ///Actual analytical value of the integral
         
         maxGuesses = guesses
         
@@ -62,6 +64,10 @@ class IntegralCalculator: NSObject, ObservableObject {
         ///Calculates the value of π from the area of a unit circle
         
         finalVal = totalIntegral/Double(totalGuesses) * boundingBoxCalculator.calculateSurfaceArea(numberOfDimensions: 2, lengthOfSide1: lengthOfSide1, lengthOfSide2: lengthOfSide2, lengthOfSide3: 0.0)
+        
+        error = log(abs(finalVal - actualVal))
+        
+        await updateCurrentErrorString(text: "\(error)")
         
         await updateFinalValString(text: "\(finalVal)")
         
@@ -173,6 +179,15 @@ class IntegralCalculator: NSObject, ObservableObject {
     @MainActor func updateFinalValString(text:String){
         
         self.integralString = text
+        
+    }
+    
+    /// updateCurrentErrorString
+    /// The function runs on the main thread so it can update the GUI
+    /// - Parameter text: contains the string containing the current value of the error
+    @MainActor func updateCurrentErrorString(text:String){
+        
+        self.currentErrorString = text
         
     }
     
